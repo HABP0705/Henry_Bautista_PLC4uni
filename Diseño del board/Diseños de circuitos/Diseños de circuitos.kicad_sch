@@ -1,0 +1,1436 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "65c875c0-73bd-43df-b6cd-4a685398cace")
+	(paper "A4")
+	(lib_symbols
+		(symbol "PCM_SL_Screw_Terminal:Screw_Terminal_9_P5.00mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_9_P5.00mm"
+				(at 1.27 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-9-5.0-H_1x09_P5.00mm_Horizontal"
+				(at 1.27 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_9_P5.00mm_0_1"
+				(rectangle
+					(start -1.27 11.43)
+					(end 2.54 -11.43)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 9.398) (xy 1.016 10.668)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 6.858) (xy 1.016 8.128)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 4.318) (xy 1.016 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.778) (xy 1.016 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -0.762) (xy 1.016 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -3.302) (xy 1.016 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -5.842) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -8.382) (xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -10.922) (xy 1.016 -9.652)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy -0.508 9.652) (xy 0.762 10.922)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy -0.508 7.112) (xy 0.762 8.382)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -0.508 4.572) (xy 0.762 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.508 2.032) (xy 0.762 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.508 -0.508) (xy 0.762 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -0.508 -3.048) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -0.508 -5.588) (xy 0.762 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy -0.508 -8.128) (xy 0.762 -6.858)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy -0.508 -10.668) (xy 0.762 -9.398)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.254 10.16)
+					(radius 0.9158)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.254 7.62)
+					(radius 0.9158)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.254 5.08)
+					(radius 0.9158)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.254 2.54)
+					(radius 0.9158)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.254 0)
+					(radius 0.9158)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.254 -2.54)
+					(radius 0.9158)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.254 -5.08)
+					(radius 0.9158)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.254 -7.62)
+					(radius 0.9158)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.254 -10.16)
+					(radius 0.9158)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_9_P5.00mm_1_1"
+				(pin passive line
+					(at -3.81 10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 111.76 64.77) (xy 114.3 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198a4191-0950-4866-8133-6aed972b6706")
+	)
+	(wire
+		(pts
+			(xy 156.21 67.31) (xy 158.75 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247d1277-55b3-4597-919a-02cd343eef1e")
+	)
+	(wire
+		(pts
+			(xy 111.76 57.15) (xy 114.3 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66469b25-08d8-401d-8fcd-c87c050d16f5")
+	)
+	(wire
+		(pts
+			(xy 156.21 74.93) (xy 158.75 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4f4d13-2525-4bbb-bc8f-db08b2478414")
+	)
+	(wire
+		(pts
+			(xy 111.76 52.07) (xy 114.3 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710625bf-5c48-4b5c-bff9-7cdeca3a8866")
+	)
+	(wire
+		(pts
+			(xy 156.21 49.53) (xy 158.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a0822a-ff96-481f-b46a-c4c5012eef1a")
+	)
+	(wire
+		(pts
+			(xy 156.21 64.77) (xy 158.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8743d3bc-aa66-4169-af4e-b890af1dc13c")
+	)
+	(wire
+		(pts
+			(xy 111.76 62.23) (xy 114.3 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a954c6b-d781-44de-b121-4f275998b5c1")
+	)
+	(wire
+		(pts
+			(xy 156.21 52.07) (xy 158.75 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9590ee6a-f763-46c6-b3ca-6713ab6f5b4a")
+	)
+	(wire
+		(pts
+			(xy 156.21 69.85) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993cbd15-6ac1-44f9-896a-14c9467c9a25")
+	)
+	(wire
+		(pts
+			(xy 156.21 72.39) (xy 158.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ea13a9-b49c-42bc-917d-2c4fdf503fef")
+	)
+	(wire
+		(pts
+			(xy 156.21 77.47) (xy 158.75 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ef59c2-efbb-4542-be63-a7c4779f911c")
+	)
+	(wire
+		(pts
+			(xy 111.76 49.53) (xy 114.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e22179d-2b3c-4aed-acd2-e11f747b05b2")
+	)
+	(wire
+		(pts
+			(xy 111.76 59.69) (xy 114.3 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a354d7b8-d841-471c-86e3-51e7197e14df")
+	)
+	(wire
+		(pts
+			(xy 156.21 59.69) (xy 158.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99d6b13-401b-4784-80c0-b5c25ed8ae69")
+	)
+	(wire
+		(pts
+			(xy 111.76 69.85) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04f4b17-f6b2-4fc9-ac0d-a03b7d0dde36")
+	)
+	(wire
+		(pts
+			(xy 111.76 54.61) (xy 114.3 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37f23a6-f225-45b1-b269-43034d526c3f")
+	)
+	(wire
+		(pts
+			(xy 111.76 67.31) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4176185-307a-45f5-a7cc-ad640e4ed6d0")
+	)
+	(wire
+		(pts
+			(xy 156.21 62.23) (xy 158.75 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4784db3-ecb7-4796-ac50-67f4eac924df")
+	)
+	(wire
+		(pts
+			(xy 156.21 57.15) (xy 158.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb3d327c-9286-42eb-89a9-e9aeef1c496c")
+	)
+	(wire
+		(pts
+			(xy 156.21 54.61) (xy 158.75 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa27dd50-8ce1-4d2f-ba25-e943df27dae4")
+	)
+	(wire
+		(pts
+			(xy 111.76 72.39) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc15fd6-e479-4c8c-b4bd-9aa240467d4d")
+	)
+	(symbol
+		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_9_P5.00mm")
+		(at 107.95 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d6dac08-7439-4684-88bb-22f4c55ead40")
+		(property "Reference" "connector-up1"
+			(at 104.14 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_9_P5.00mm"
+			(at 104.14 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-9-5.0-H_1x09_P5.00mm_Horizontal"
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "EM366509"
+			(at 95.758 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "1f96bc8c-ccee-4798-bbd5-d90583df4478")
+		)
+		(pin "6"
+			(uuid "42e5cddd-a514-4cbd-958d-34e5685739e6")
+		)
+		(pin "8"
+			(uuid "e3a2e6a9-e6e5-48d4-b99a-eeb714bf5b02")
+		)
+		(pin "1"
+			(uuid "f8cc769a-a692-431a-862b-bef05ab43628")
+		)
+		(pin "2"
+			(uuid "46e880d9-1f4b-4f91-8bb9-72c62dbe4457")
+		)
+		(pin "3"
+			(uuid "8dcd0fb0-de3f-403c-91f3-a8a8f8a48200")
+		)
+		(pin "5"
+			(uuid "9400924f-fa28-48cc-89df-a185ab171b2a")
+		)
+		(pin "7"
+			(uuid "d92cee87-36d1-4f0a-8b84-295988330c41")
+		)
+		(pin "9"
+			(uuid "4227efde-d8a4-4580-aeab-9ec97726ee65")
+		)
+		(instances
+			(project ""
+				(path "/65c875c0-73bd-43df-b6cd-4a685398cace"
+					(reference "connector-up1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_9_P5.00mm")
+		(at 162.56 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64cd0b22-f037-4189-80cb-c8a8e6a9dc6c")
+		(property "Reference" "connector-down1"
+			(at 166.37 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_9_P5.00mm"
+			(at 166.37 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-9-5.0-H_1x09_P5.00mm_Horizontal"
+			(at 163.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "EM366509"
+			(at 177.292 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "f9d3ff57-5a28-4664-ad98-f0c533ed7d1e")
+		)
+		(pin "6"
+			(uuid "972f67ab-ca36-48cf-92a0-5fc5996c2f17")
+		)
+		(pin "8"
+			(uuid "3633c438-5512-4da4-85a4-90446ed5b864")
+		)
+		(pin "1"
+			(uuid "891e288c-4082-44be-aad6-a0e223567ac1")
+		)
+		(pin "2"
+			(uuid "bf9fb1b2-37a0-4831-ba12-121d8139e1ce")
+		)
+		(pin "3"
+			(uuid "aac9ef1e-b3db-4145-aaa1-72d66d024231")
+		)
+		(pin "5"
+			(uuid "de930eb6-e012-4f4e-84ba-5274738434d1")
+		)
+		(pin "7"
+			(uuid "cdec5e1d-81c1-400a-92e5-b772de6d918f")
+		)
+		(pin "9"
+			(uuid "eb0b18a8-4938-4417-957c-d325a8bf8b9f")
+		)
+		(instances
+			(project "Diseños de circuitos"
+				(path "/65c875c0-73bd-43df-b6cd-4a685398cace"
+					(reference "connector-down1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_9_P5.00mm")
+		(at 107.95 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69c06eb5-70ba-45b8-9a68-326a0a11ef75")
+		(property "Reference" "connector-up2"
+			(at 104.14 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_9_P5.00mm"
+			(at 104.14 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-9-5.0-H_1x09_P5.00mm_Horizontal"
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "EM366509"
+			(at 94.742 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "244b866c-4ab8-4567-ad8b-ac6d9ef07b11")
+		)
+		(pin "6"
+			(uuid "79a9f451-2a7f-470c-9aee-27b201f918f2")
+		)
+		(pin "8"
+			(uuid "14c3c561-a039-4f10-967a-13857de21413")
+		)
+		(pin "1"
+			(uuid "2a4ca6fa-91ee-4659-a3e2-a74e56fce674")
+		)
+		(pin "2"
+			(uuid "55b285f8-b757-4e07-a2a2-cfac949a46c8")
+		)
+		(pin "3"
+			(uuid "f42dbe0a-dbb3-4a0c-aec8-90db734f19aa")
+		)
+		(pin "5"
+			(uuid "7f622ad9-0f32-4d16-8924-f292e4591333")
+		)
+		(pin "7"
+			(uuid "05e9540f-5ce8-47f1-bdca-536bdde91662")
+		)
+		(pin "9"
+			(uuid "edc69997-9c70-40db-9da7-ca4377c5a759")
+		)
+		(instances
+			(project "Diseños de circuitos"
+				(path "/65c875c0-73bd-43df-b6cd-4a685398cace"
+					(reference "connector-up2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_9_P5.00mm")
+		(at 162.56 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92cf0f63-7902-4ead-85b3-68a638000567")
+		(property "Reference" "connector-down2"
+			(at 166.37 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_9_P5.00mm"
+			(at 166.37 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-9-5.0-H_1x09_P5.00mm_Horizontal"
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "EM366509"
+			(at 178.308 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "2a95cb2e-cfed-4967-9d15-c1f6a4f72490")
+		)
+		(pin "6"
+			(uuid "3b660998-87a3-4416-992b-fd47a326d2f7")
+		)
+		(pin "8"
+			(uuid "f0a34440-2077-4e4c-8915-995b556d1b48")
+		)
+		(pin "1"
+			(uuid "48533351-c866-4fe6-a2c2-700ac8d88c13")
+		)
+		(pin "2"
+			(uuid "e4d5854d-056b-4f0b-8b81-d10a7b0c3af9")
+		)
+		(pin "3"
+			(uuid "bd92b73a-6ef1-4f62-917b-73ea01445132")
+		)
+		(pin "5"
+			(uuid "19ff487c-9e56-4d29-82b3-23e5c96b436e")
+		)
+		(pin "7"
+			(uuid "3406e468-7696-4eb3-91cc-db7ed1d9ca2f")
+		)
+		(pin "9"
+			(uuid "afc51b2e-06b5-45b8-a8a8-fea282a524c8")
+		)
+		(instances
+			(project "Diseños de circuitos"
+				(path "/65c875c0-73bd-43df-b6cd-4a685398cace"
+					(reference "connector-down2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 46.99)
+		(size 41.91 67.31)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b453a73-5bb7-4645-a7e8-6e186968fa05")
+		(property "Sheetname" "board-plc4uni-G1w"
+			(at 114.3 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "board-plc4uni-G1w.kicad_sch"
+			(at 114.3 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN-NPN-1" input
+			(at 114.3 54.61 180)
+			(uuid "8332c738-fa0c-484b-a158-db1ace8d16ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN-NPN-2" input
+			(at 114.3 57.15 180)
+			(uuid "d008df39-a8f4-42a1-a879-2d492f50f0a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN-NPN-OPTO-1" input
+			(at 114.3 59.69 180)
+			(uuid "339aeb7c-4a64-4335-9b9d-0085a6e98ea6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN-NPN-OPTO-2" input
+			(at 114.3 62.23 180)
+			(uuid "08cf8c76-823b-43f6-a724-43c66966a535")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN-PNP-1" input
+			(at 114.3 64.77 180)
+			(uuid "f1cf0ffd-e45d-4c20-b6b2-ad9ae0a0a6ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN-PNP-2" input
+			(at 114.3 67.31 180)
+			(uuid "8617585a-a3f7-4388-b94c-fd84d7399dd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN-PNP-OPTO-1" input
+			(at 114.3 69.85 180)
+			(uuid "55a13e53-2500-4c51-9be9-7708b7da0dcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN-PNP-OPTO-2" input
+			(at 114.3 72.39 180)
+			(uuid "af7a7ee1-a164-436d-8235-30de9a08e3ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT-NPN-1" output
+			(at 156.21 49.53 0)
+			(uuid "8f22623a-da8d-42f1-94d6-1ebcc3085ac2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT-NPN-2" output
+			(at 156.21 52.07 0)
+			(uuid "519c204d-8f6d-4129-95a9-d51894d89052")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT-NPN-OPTO-1" output
+			(at 156.21 54.61 0)
+			(uuid "18fa5188-38fc-48d1-bc0d-43b6056282aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT-NPN-OPTO-2" output
+			(at 156.21 57.15 0)
+			(uuid "f63ff90e-a5bf-4317-9fbf-cafdced69cd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT-PNP-1" output
+			(at 156.21 59.69 0)
+			(uuid "c11d9580-8dba-4e0d-8f27-f2fcbbd19cc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT-PNP-2" output
+			(at 156.21 62.23 0)
+			(uuid "99fb4286-6a6b-4e7b-a86a-7fa2a52618d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT-PNP-3" output
+			(at 156.21 64.77 0)
+			(uuid "7b0fc65f-a8af-4de3-b988-31015115ca4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "0V-SOURCE" output
+			(at 114.3 52.07 180)
+			(uuid "b8ad12f5-04aa-478b-aed6-6cd63b91493b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "24V-SOURCE" input
+			(at 114.3 49.53 180)
+			(uuid "8954c570-a6a7-4198-8ea3-4e3a30790e6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT-COMMON-1" output
+			(at 156.21 69.85 0)
+			(uuid "8d1f3fbb-ec0d-4e98-b93d-62b6080167f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT-COMMON-2" output
+			(at 156.21 74.93 0)
+			(uuid "01dde9e3-0927-41b0-8c9c-141db25505ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT-NC" output
+			(at 156.21 67.31 0)
+			(uuid "163d103d-94d4-46cb-9f0f-964a67c92840")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT-NO-1" output
+			(at 156.21 72.39 0)
+			(uuid "e9ab3805-0edb-4b01-8002-59712baa60c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT-NO-2" output
+			(at 156.21 77.47 0)
+			(uuid "1e7ee360-d846-42df-b2ec-37dc45561f69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Diseños de circuitos"
+				(path "/65c875c0-73bd-43df-b6cd-4a685398cace"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
