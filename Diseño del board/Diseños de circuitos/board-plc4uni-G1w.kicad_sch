@@ -37,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 102.87) (xy 226.06 102.87)
+			(xy 223.52 116.84) (xy 226.06 116.84)
 		)
 		(stroke
 			(width 0)
@@ -77,7 +77,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 105.41) (xy 195.58 105.41)
+			(xy 104.14 100.33) (xy 107.95 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd7e752-e3d8-4f5a-8357-a82c9483435c")
+	)
+	(wire
+		(pts
+			(xy 193.04 119.38) (xy 195.58 119.38)
 		)
 		(stroke
 			(width 0)
@@ -107,7 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 87.63) (xy 195.58 87.63)
+			(xy 193.04 101.6) (xy 195.58 101.6)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +127,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 91.44) (xy 226.06 91.44)
+			(xy 223.52 105.41) (xy 226.06 105.41)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +167,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 86.36) (xy 226.06 86.36)
+			(xy 193.04 83.82) (xy 195.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf20734-1be2-404a-bddc-1025872093ea")
+	)
+	(wire
+		(pts
+			(xy 223.52 100.33) (xy 226.06 100.33)
 		)
 		(stroke
 			(width 0)
@@ -197,16 +217,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 130.81) (xy 195.58 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "779c8005-12ce-456f-9d1d-c110055d714e")
-	)
-	(wire
-		(pts
 			(xy 116.84 36.83) (xy 119.38 36.83)
 		)
 		(stroke
@@ -214,6 +224,16 @@
 			(type default)
 		)
 		(uuid "7921fd0d-8d7d-432f-8470-c5d0e7099288")
+	)
+	(wire
+		(pts
+			(xy 133.35 100.33) (xy 135.89 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7929a673-d7da-428f-920a-55d1b53e0cf1")
 	)
 	(wire
 		(pts
@@ -287,7 +307,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 88.9) (xy 226.06 88.9)
+			(xy 223.52 102.87) (xy 226.06 102.87)
 		)
 		(stroke
 			(width 0)
@@ -324,6 +344,16 @@
 			(type default)
 		)
 		(uuid "c2d76827-d02f-4b40-b818-46f3ae687ea3")
+	)
+	(wire
+		(pts
+			(xy 215.9 85.09) (xy 218.44 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c94505-228a-48e2-8c16-36eb54e5427e")
 	)
 	(wire
 		(pts
@@ -377,6 +407,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 86.36) (xy 195.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0e7eeb-1c74-4a55-9978-2adae03ca5f0")
+	)
+	(wire
+		(pts
 			(xy 209.55 52.07) (xy 212.09 52.07)
 		)
 		(stroke
@@ -397,7 +437,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 106.68) (xy 226.06 106.68)
+			(xy 223.52 120.65) (xy 226.06 120.65)
 		)
 		(stroke
 			(width 0)
@@ -418,7 +458,7 @@
 	)
 	(hierarchical_label "OUT-COMMON-2"
 		(shape output)
-		(at 226.06 102.87 0)
+		(at 226.06 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -460,9 +500,20 @@
 		)
 		(uuid "27d3d8ea-107a-4b51-a6c3-daa783575657")
 	)
+	(hierarchical_label "IN-0-10V"
+		(shape input)
+		(at 104.14 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e574e5e-e419-4e7c-baf0-4a2811283453")
+	)
 	(hierarchical_label "OUT-COMMON-1"
 		(shape output)
-		(at 226.06 86.36 0)
+		(at 226.06 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -473,7 +524,7 @@
 	)
 	(hierarchical_label "OUT-NC"
 		(shape output)
-		(at 226.06 88.9 0)
+		(at 226.06 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -492,6 +543,17 @@
 			(justify left)
 		)
 		(uuid "48e06bc6-04e0-4544-878e-4c81c91757fe")
+	)
+	(hierarchical_label "OUT-0-10V"
+		(shape output)
+		(at 218.44 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e3897b8-3e82-417d-a824-cd855fb85674")
 	)
 	(hierarchical_label "OUT-PNP-3"
 		(shape output)
@@ -561,7 +623,7 @@
 	)
 	(hierarchical_label "OUT-NO-2"
 		(shape output)
-		(at 226.06 106.68 0)
+		(at 226.06 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -616,7 +678,7 @@
 	)
 	(hierarchical_label "OUT-NO-1"
 		(shape output)
-		(at 226.06 91.44 0)
+		(at 226.06 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -898,6 +960,69 @@
 		)
 	)
 	(sheet
+		(at 107.95 97.79)
+		(size 25.4 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26d79baa-0338-43a5-b3e5-bc5aeada5ecf")
+		(property "Sheetname" "INPUT-0-10V"
+			(at 107.95 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INPUT-0-10V.kicad_sch"
+			(at 107.95 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "ADC_IN_3V3" output
+			(at 133.35 100.33 0)
+			(uuid "4e00bd7b-e18b-4415-a10a-66f00b58432d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_0-10V" input
+			(at 107.95 100.33 180)
+			(uuid "fa896d41-d7e0-4570-bb58-c6b03a4d8c55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Diseños de circuitos"
+				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 119.38 26.67)
 		(size 13.97 3.81)
 		(exclude_from_sim no)
@@ -961,7 +1086,7 @@
 		)
 	)
 	(sheet
-		(at 195.58 83.82)
+		(at 195.58 97.79)
 		(size 27.94 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -977,7 +1102,7 @@
 		)
 		(uuid "300cbd4a-1c9e-448a-950a-bfd812e6e5a0")
 		(property "Sheetname" "OUT-RELAY-1"
-			(at 195.58 83.1084 0)
+			(at 195.58 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -986,7 +1111,7 @@
 			)
 		)
 		(property "Sheetfile" "OUT-RELAY-1.kicad_sch"
-			(at 195.58 93.2946 0)
+			(at 195.58 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -996,7 +1121,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 195.58 87.63 180)
+			(at 195.58 101.6 180)
 			(uuid "84041b24-cd78-44f0-acc0-dd0deef81c85")
 			(effects
 				(font
@@ -1006,7 +1131,7 @@
 			)
 		)
 		(pin "out-common-1" output
-			(at 223.52 86.36 0)
+			(at 223.52 100.33 0)
 			(uuid "1fa481a9-fdc1-4fb7-b1a8-f39a7807ebf3")
 			(effects
 				(font
@@ -1016,7 +1141,7 @@
 			)
 		)
 		(pin "out-nc" output
-			(at 223.52 88.9 0)
+			(at 223.52 102.87 0)
 			(uuid "95d1e681-efe6-4acf-b00b-53fb86c79bd9")
 			(effects
 				(font
@@ -1026,7 +1151,7 @@
 			)
 		)
 		(pin "out-no-1" output
-			(at 223.52 91.44 0)
+			(at 223.52 105.41 0)
 			(uuid "097b0a90-fee8-4097-a2dd-075fda7d696d")
 			(effects
 				(font
@@ -1107,7 +1232,7 @@
 		)
 	)
 	(sheet
-		(at 195.58 100.33)
+		(at 195.58 114.3)
 		(size 27.94 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1123,7 +1248,7 @@
 		)
 		(uuid "389c123e-9538-4704-bdfd-eda3950b0dc6")
 		(property "Sheetname" "OUT-RELAY-2"
-			(at 195.58 99.6184 0)
+			(at 195.58 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1132,16 +1257,17 @@
 			)
 		)
 		(property "Sheetfile" "OUT-RELAY-2.kicad_sch"
-			(at 195.58 111.0746 0)
+			(at 195.58 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "IN" input
-			(at 195.58 105.41 180)
+			(at 195.58 119.38 180)
 			(uuid "389622e9-fbb7-45cb-980c-19a8d14d2e62")
 			(effects
 				(font
@@ -1151,7 +1277,7 @@
 			)
 		)
 		(pin "out-common-2" output
-			(at 223.52 102.87 0)
+			(at 223.52 116.84 0)
 			(uuid "df65d5dd-cd71-4ffc-a91f-389904008b60")
 			(effects
 				(font
@@ -1161,7 +1287,7 @@
 			)
 		)
 		(pin "out-no-2" output
-			(at 223.52 106.68 0)
+			(at 223.52 120.65 0)
 			(uuid "c0635e30-78cc-4cab-a58b-2aa1f622828e")
 			(effects
 				(font
@@ -1494,7 +1620,7 @@
 	)
 	(sheet
 		(at 135.89 26.67)
-		(size 57.15 115.57)
+		(size 57.15 133.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1518,7 +1644,7 @@
 			)
 		)
 		(property "Sheetfile" "plc4uni-cpu.kicad_sch"
-			(at 135.89 142.8246 0)
+			(at 135.89 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1803,7 @@
 			)
 		)
 		(pin "micro-out-relay-1" output
-			(at 193.04 87.63 0)
+			(at 193.04 101.6 0)
 			(uuid "52424143-7a23-4488-8299-a25bfe3fc81b")
 			(effects
 				(font
@@ -1687,8 +1813,38 @@
 			)
 		)
 		(pin "micro-out-relay-2" output
-			(at 193.04 105.41 0)
+			(at 193.04 119.38 0)
 			(uuid "c6618390-9c06-4578-a931-a86c7b44e68e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_0-10V" input
+			(at 135.89 100.33 180)
+			(uuid "241692e2-a9df-4416-a6b2-7110403338de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" output
+			(at 193.04 83.82 0)
+			(uuid "e15579c0-36bc-4b34-aa9d-63170ee2539d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 193.04 86.36 0)
+			(uuid "1c001d72-28cc-4661-bf70-28a4e21750ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,6 +1981,79 @@
 			(project "Diseños de circuitos"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 82.55)
+		(size 20.32 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb3f1452-6c69-43d9-8153-9dbf3dca2d0d")
+		(property "Sheetname" "OUTPUT-0-10V"
+			(at 195.58 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OUTPUT-0-10V.kicad_sch"
+			(at 195.58 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Out_0-10V" output
+			(at 215.9 85.09 0)
+			(uuid "d762175b-96b0-4543-a9e8-0c9b21b5f25b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 195.58 83.82 180)
+			(uuid "1052df9c-e8b2-482d-bb4a-53630a9a03a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 195.58 86.36 180)
+			(uuid "5af56a86-7bd8-4296-a6f4-40b8b93c41d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Diseños de circuitos"
+				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05"
+					(page "23")
 				)
 			)
 		)

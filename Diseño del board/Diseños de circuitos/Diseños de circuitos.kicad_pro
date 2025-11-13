@@ -687,8 +687,16 @@
       "source protection"
     ],
     [
+      "26d79baa-0338-43a5-b3e5-bc5aeada5ecf",
+      "INPUT-0-10V"
+    ],
+    [
       "300cbd4a-1c9e-448a-950a-bfd812e6e5a0",
       "OUT-RELAY-1"
+    ],
+    [
+      "cb3f1452-6c69-43d9-8153-9dbf3dca2d0d",
+      "OUTPUT-0-10V"
     ],
     [
       "389c123e-9538-4704-bdfd-eda3950b0dc6",
