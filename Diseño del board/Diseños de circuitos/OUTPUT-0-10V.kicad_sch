@@ -1875,104 +1875,6 @@
 		)
 	)
 	(symbol
-		(lib_id "GP8211S-TC50-EW:root_0_GP8211S-TC50-EW_")
-		(at 142.24 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f23437c-73b3-4d00-801e-965f7259e2a2")
-		(property "Reference" "U1"
-			(at 142.24 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 142.24 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm"
-			(at 142.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3152008"
-			(at 142.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "a225e3d4-8a6c-44e5-acf7-9f0f3a397eea")
-		)
-		(pin "6"
-			(uuid "34dc8bf1-d471-4eab-8f44-3cf1c0d10bbf")
-		)
-		(pin "5"
-			(uuid "4558df51-d8b5-4370-90db-4be8cfdd91b0")
-		)
-		(pin "8"
-			(uuid "acf90713-47d0-4122-8e6c-22895f7e0080")
-		)
-		(pin "4"
-			(uuid "3f6b3041-73a3-41ad-a981-5c9b0547d27e")
-		)
-		(pin "9"
-			(uuid "ee9cf3dd-2f52-44eb-9d13-2b26ab3678de")
-		)
-		(pin "2"
-			(uuid "40b76e17-dd8e-49b4-bf05-d0721e47cfd3")
-		)
-		(pin "3"
-			(uuid "e2b83e3c-a50d-435b-a97f-e0e9b8929c8c")
-		)
-		(pin "1"
-			(uuid "75f4c645-f4d3-4fbd-89b2-a3fea0396290")
-		)
-		(instances
-			(project "Diseños de circuitos"
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/cb3f1452-6c69-43d9-8153-9dbf3dca2d0d"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 118.11 82.55 0)
 		(unit 1)
@@ -2099,6 +2001,104 @@
 			(project "Diseños de circuitos"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/cb3f1452-6c69-43d9-8153-9dbf3dca2d0d"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP8211S-TC50-EW:root_0_GP8211S-TC50-EW_")
+		(at 142.24 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90ce8157-955e-4cd0-9739-f5ab59d968f2")
+		(property "Reference" "U1"
+			(at 142.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Lib_GP8211S-TC50-EW:ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP"
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3152008"
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "73601215-cd38-4339-bab6-b657c396cec8")
+		)
+		(pin "6"
+			(uuid "f5bd474c-36e0-45b1-9d40-e940cb622042")
+		)
+		(pin "5"
+			(uuid "c6e880e4-a12c-4c47-931e-5f5824156e7d")
+		)
+		(pin "8"
+			(uuid "db085641-8d8a-459e-9c32-43a502f32d8b")
+		)
+		(pin "4"
+			(uuid "176ace6d-228d-437c-9f94-c69d84bcc3be")
+		)
+		(pin "9"
+			(uuid "579aaccc-da62-4b13-a3d3-4f2352577421")
+		)
+		(pin "2"
+			(uuid "a17ce90a-9a1d-4db3-8e81-5d3654e03418")
+		)
+		(pin "3"
+			(uuid "458bdf72-1101-4495-81bd-1f206233b372")
+		)
+		(pin "1"
+			(uuid "adcb99ea-6289-45bf-bdc6-17e83a73e5b9")
+		)
+		(instances
+			(project "Diseños de circuitos"
+				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/cb3f1452-6c69-43d9-8153-9dbf3dca2d0d"
+					(reference "U1")
 					(unit 1)
 				)
 			)
